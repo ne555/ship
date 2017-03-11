@@ -1,6 +1,6 @@
 #include <list>
 #include "ship.h"
-///#include "sub.h"
+#include "sub.h"
 
 ///I could have left the objects alone as regular objects instead of making them pointers, but I wanted to experiment more with pointers,
 ///Overcome some anxiety I have surrounding them
@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-
+	sub marine;
     list<ship>::iterator myitr;  ///Set some private variables
     list<ship>fleet;
     ship * sptr; ///ship pointer for making new ships

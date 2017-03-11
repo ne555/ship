@@ -1,5 +1,12 @@
 #include "ship.h"
 
+ship::ship():
+	bowangle(0),
+	range(0),
+	aircraft(false)
+{
+}
+
 ship::ship(std::string t, double ba, double r, bool ac)
 {
     type = t;
