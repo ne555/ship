@@ -8,7 +8,6 @@
 #include <fstream>
 using namespace std;
 
-
 class ship
 {
 public:
